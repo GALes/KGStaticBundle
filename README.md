@@ -29,6 +29,17 @@ Add KGPagerBundle in your `composer.json`:
 }
 ```
 
+Directamente con composer
+
+```
+composer require kgilden/static-bundle
+```
+Register the bundle in app/AppKernel.php:
+
+```php
+new KG\StaticBundle\KGStaticBUndle(),
+```
+
 Tests
 -----
 
